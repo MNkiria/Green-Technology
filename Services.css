@@ -1,0 +1,112 @@
+/* css docs */
+*{
+    overflow-x: hidden;
+    
+}
+h5{
+    color: rgba(60 ,179 ,113 , 1) ;
+    font-weight: 900;
+   
+}
+.disp{
+    color: rgba(60 ,179 ,113 , 1) ;
+    font-weight: 800;
+}
+.digital{
+    display: flex;
+    flex-direction: column;
+}
+.services{
+    display: flex;
+    max-width: 1200px;
+    align-items: center;
+    column-gap: 20px;
+    justify-content: space-evenly;
+    margin: 0 auto;
+    margin-bottom: 40px;
+}
+.SEO{
+    max-width: 40%;
+}
+.search{
+    color: rgba(60 ,179 ,113 , 1) ;
+}
+.text{
+    text-wrap: wrap;
+}
+.search-img{
+    width: 300px;
+    height: 200px;
+}
+
+.media{
+    display: flex;
+    max-width: 1200px;
+    align-items: center;
+    column-gap: 20px;
+    justify-content: space-evenly;
+    margin: 0 auto; 
+    margin-bottom: 40px; 
+}
+.social{
+    width: 40%;
+}
+
+.marketing{
+    display: flex;
+    max-width: 1200px;
+    align-items: center;
+    column-gap: 20px;
+    justify-content: space-evenly;
+    margin: 0 auto;  
+    margin-bottom: 40px;
+}
+.advert{
+    width: 40%;
+}
+
+.email{
+    display: flex;
+    flex-direction: row;
+    max-width: 1200px;
+    align-items: center;
+    justify-content:space-evenly;
+    margin: 0 auto; 
+    margin-bottom: 40px; 
+}
+.emarket{
+    width: 40%;
+}
+button{
+    border: none;
+    height: 40px;
+    background-color: rgba(0 ,255 , 0, 0.5);
+    border-radius: 20px;
+    transition: all 0.3s;
+}
+button:hover{
+    background-color: rgba(60 ,179 ,113 , 1);
+}
+
+.card-img{
+   width: 40%;
+   padding: 20px; 
+   background-color: rgba(60 ,179 ,113 , 1);
+   margin: 25px;
+   border:2px;
+   border-radius: 10px;
+}
+
+.logos{
+   width: 40%;
+   padding: 20px; 
+   background-color: rgba(60 ,179 ,113 , 1);
+   margin: 25px;
+   border:2px;
+   border-radius: 10px;
+} 
+
+.container2{
+    display: flex;
+    flex-wrap: wrap;
+}
